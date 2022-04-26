@@ -1,0 +1,364 @@
+body{
+	font-family:'Century Gothic',Calibri,serif;
+	font-size:13px;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+	font-family:verdana;
+}
+h1{
+font-size:60px;
+font-weight:normal;
+text-align:center;
+font-style:oblique;
+font-family:algerian;	
+color:white;
+text-shadow:4px 1px black;
+}
+header{
+	height:100px;
+}
+footer{
+	height:80px;
+	padding-top:30px;
+	text-align:center;
+	background-color:#C5C5C5;
+	border-top:2px solid #AAA;
+	font-size:20px;
+	font-family:algerian;
+    font-style:oblique;
+	border:groove 14 px black;
+}
+nav{
+	width:100%;
+	background-color:#424558;
+	}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav li{
+list-style-type:none;
+float:left;}
+nav a{
+display:inline-	block;
+text-decoration:none;
+padding:20px 30px;
+color:#FFF;
+text-transform:uppercase;
+font-size:20px;
+
+}
+.table{
+	display:table;
+	margin:0 auto;
+}
+.menu-ind:hover,.presentation{
+	border-top:5px solid #FF0000;
+	background-color:RGBa(64,200,130,0.15);
+	color:black;
+	}
+.menu-exp:hover,.parcours{
+	border-top:5px solid  #f1dc4f;
+	background-color:RGBa(241,211,79,0.15);
+}
+.menu-hob:hover,.competences{
+	border-top:5px solid #0070BB;
+	background-color:RGBa(000,112,192,0.15);
+}
+.menu-con:hover,.recommandation{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228,77,38,0.15);
+}
+nav li:hover a{
+	padding:15px 30px 20px 30px;
+}
+.orange{
+	border-top:5px solid #424558;
+	background-color:aqua;
+	
+	margin-bottom:0px;
+}
+.rose{
+   border-top:5px solid #e47d26;
+	background-color:seagreen;
+	margin-bottom:0px;
+}	
+.rouge{
+	
+	border-top:5px solid #424558;
+	background-color:powderblue;
+	margin-bottom:0px;
+	
+	
+}
+.leftexp{
+	width:45%;
+	float:left;
+	border:groove 13px black;
+	border-radius:20px;
+}
+.rightexp{
+	width:50%;
+	float:left;
+margin-left:8%;
+margin-bottom: 1000px;
+}
+.leftexp img{	
+	width:100%;
+max-width:400%;
+}
+	
+section{
+	width:100%;
+	min-height:300px;
+	padding-bottom:10px;
+    margin-bottom:90px;
+	}
+.sec{
+	margin:0px 10%;
+	}
+.left{
+	float:left;
+	width:30%;
+	
+}
+#hamza:first-letter{
+	font-size:50pt;
+	text-decoration:underline;
+	font-style:oblique;
+font-family:algerian;
+	
+}
+.right{
+	float:left;
+	width:70%;
+	text-align:justify;
+	
+}
+.cleft,.cright,.sousleft,.souright{
+	width:50%;
+float:left;}
+.sec::after,.exp::after,.reco::after{
+	content:"";
+	display:table;
+clear:both;}
+@media screen and (max-width:1000px){
+header{
+	height:50px;
+}
+h1{
+font-size:28px;
+margin:20px 0px 0px 0px;
+}
+nav li a{
+font-size:12px;
+padding:10px
+}
+nav li:hover a{
+padding:5px 10px 10px 10px;
+
+}
+}
+
+.a{
+	margin-top:200px;
+	margin-left:200px;
+	background-color:crimson;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	background:url('AQZ.jpg')center/cover
+	no-repeat ;}
+	.b{
+	top:10px;
+	left:10px;
+	background-color:orange;
+	width:100px;
+	height:100px;
+	position:absolute;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	background:url('az.jpg')center/cover
+	no-repeat ;	
+	}
+	.c{
+	margin-left:400px;
+	background-color:gray;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	background:url('hg.jpeg')center/cover
+	no-repeat ;
+	}
+	.d{
+	margin-top:200px;
+	margin-left:600px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	background:url('hg.jpeg')center/cover
+	no-repeat ;}
+	.e{
+	margin-left:800px;
+	background-color:coral;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	background:url('AQZ.jpg')center/cover
+	no-repeat ;
+	}
+	.f{
+	margin-top:200px;
+	margin-left:1000px;
+	background-color:brown;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	background:url('az.jpg')center/cover
+	no-repeat ;}
+	
+	.g{
+	margin-left:1200px;
+	background-color:red;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	background:url('az.jpg')center/cover
+	no-repeat ;
+	}
+	.h{
+	margin-top:200px;
+	margin-left:1400px;
+	background-color:green;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	background:url('AQZ.jpg')center/cover
+	no-repeat ;}
+	.i{
+	margin-left:1600px;
+	background-color:yellow;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	animation-name:moving;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	background:url('az.jpg')center/cover
+	no-repeat ;	
+	}
+	@keyframes moving{
+	
+	0%{
+	top:10px;
+	transform:rotatey(-30deg);
+	}
+	25%{
+	top:170px;
+	transform:rotatey(-70deg);
+	}
+	50%{
+	top:5px;
+	transform:rotatey(130deg);
+	}
+	75%{
+	top:200px;
+	}
+	100%{
+	
+	top:2px;
+	
+	}
+	
+	
+	}
+.AQ{
+background-color:indianred;
+font-size:1vw;
+
+}
+.ZR{
+	background-color:#AAA;
+}
+.dW{
+	background:url('AQZ.jpg')center/cover
+	no-repeat ;
+	font-size:1.5vw;	
+	
+}
+.orangee{
+	border-top:5px solid #424558;
+	background-color:black;
+	
+	margin-bottom:0px;
+	opacity:0.6;
+}
+.rosee{
+	border-top:5px solid #424558;
+	background-color:black;
+	
+	margin-bottom:0px;
+	opacity:0.6;
+}
+.rougee{
+	border-top:5px solid #424558;
+	background-color:black;
+	
+	margin-bottom:0px;
+	opacity:0.6;
+}
+.xt{
+	color:white;
+}
+
+.image img{
+	margin-left:430px;
+	width:40%;
+
+}
+.leftexpaK img{
+	margin-left:430px;
+	width:40%;
+}
+.fb{
+	background-image:url('fond.jpg');
+	
+	
+}
